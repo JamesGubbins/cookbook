@@ -1,0 +1,69 @@
+<Model name="Various">
+   <RecipeFrames class="java.util.ArrayList">
+      <recipeFrame id="1">
+         <title>Japanese Curry</title>
+         <IngredientFrames class="java.util.ArrayList">
+            <ingredientFrame name="S and B Golden Curry Mix" quantity="1" unit="Pack"/>
+            <ingredientFrame name="Chicken, Lamb, Pork, Beef" quantity="500" unit="Grams"/>
+            <ingredientFrame name="Carrot" quantity="1" unit=""/>
+            <ingredientFrame name="Brown Onion" quantity="1" unit=""/>
+            <ingredientFrame name="Potato" quantity="1" unit=""/>
+            <ingredientFrame name="Long Grain Rice" quantity="1" unit="Cup"/>
+            <ingredientFrame name="Vegetable Oil" quantity="1" unit="Tablespoon"/>
+         </IngredientFrames>
+         <time>30</time>
+         <serving>5</serving>
+         <stepFrames class="java.util.ArrayList">
+            <stepFrame no="1" desc="Start cooking rice in rice cooker"/>
+            <stepFrame no="2" desc="Dice the meat and chop the vegetables"/>
+            <stepFrame no="3" desc="Stir-fry the meat and vegetables in a large pot"/>
+            <stepFrame no="4" desc="Add 540ml of water to the pot and bring to boil"/>
+            <stepFrame no="5" desc="Take off heat and add the curry mix to the pot"/>
+            <stepFrame no="6" desc="Mix the curry mix until it is fully melted/mixed"/>
+            <stepFrame no="7" desc=" Simmer for 5 minutes"/>
+            <stepFrame no="8" desc="Serve with rice"/>
+         </stepFrames>
+      </recipeFrame>
+      <recipeFrame id="2">
+         <title>A Bowl of Cereal</title>
+         <IngredientFrames class="java.util.ArrayList">
+            <ingredientFrame name="Any Cereal" quantity="1" unit="Bowl"/>
+            <ingredientFrame name="Milk" quantity="1" unit="Bowl"/>
+         </IngredientFrames>
+         <time>1</time>
+         <serving>1</serving>
+         <stepFrames class="java.util.ArrayList">
+            <stepFrame no="1" desc="Pour cereal into bowl"/>
+            <stepFrame no="2" desc="Pour milk into bowl"/>
+         </stepFrames>
+      </recipeFrame>
+      <recipeFrame id="3">
+         <title>An apple</title>
+         <IngredientFrames class="java.util.ArrayList">
+            <ingredientFrame name="Apple" quantity="1" unit=""/>
+         </IngredientFrames>
+         <time>0</time>
+         <serving>1</serving>
+         <stepFrames class="java.util.ArrayList">
+            <stepFrame no="1" desc="Eat the apple"/>
+         </stepFrames>
+      </recipeFrame>
+      <recipeFrame id="4">
+         <title>Burgers</title>
+         <IngredientFrames class="java.util.ArrayList">
+            <ingredientFrame name="Mince Meat" quantity="500" unit="Grams"/>
+            <ingredientFrame name="Breadcrumbs" quantity="1" unit="Cup"/>
+            <ingredientFrame name="Egg" quantity="1" unit=""/>
+            <ingredientFrame name="Diced Onion" quantity="1" unit=""/>
+            <ingredientFrame name="Grated Carrot" quantity="1" unit=""/>
+         </IngredientFrames>
+         <time>40</time>
+         <serving>4</serving>
+         <stepFrames class="java.util.ArrayList">
+            <stepFrame no="1" desc="Mix all ingredients in a mixing bowl"/>
+            <stepFrame no="2" desc="Cook on high until brown"/>
+            <stepFrame no="3" desc="Serve on a roll"/>
+         </stepFrames>
+      </recipeFrame>
+   </RecipeFrames>
+</Model>
